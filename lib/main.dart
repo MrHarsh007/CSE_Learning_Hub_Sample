@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_windowmanager/flutter_windowmanager.dart';
+import 'package:gtu_material/pages/catelogDetails/homesemNummbers.dart';
 
 import 'package:gtu_material/pages/help_page.dart';
 import 'package:gtu_material/pages/home_page.dart';
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.sem6route: (context) => const sem6Page(),
         MyRoutes.sem7route: (context) => const sem7Page(),
         MyRoutes.helpRoute: (context) => HelpPage(),
+        MyRoutes.homeNumber: (context) => const HomeNumberDetails(),
       },
     );
   }

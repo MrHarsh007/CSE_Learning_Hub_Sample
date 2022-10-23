@@ -7,4 +7,5 @@ class MyRoutes {
   static String sem6route = "/sem6";
   static String sem7route = "/sem7";
   static String helpRoute = "/help";
+  static String homeNumber = "/homeNumber";
 }

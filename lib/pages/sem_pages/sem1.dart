@@ -56,7 +56,7 @@ class _sem1PageState extends State<sem1Page> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  "Sem - 1".text.xl3.bold.color(Colors.black).make(),
+                  "Sem - 1 & 2".text.xl3.bold.color(Colors.black).make(),
                   "Computer Engineering".text.xl2.make(),
                   "PDF loading takes time , wait for 30 second"
                       .text

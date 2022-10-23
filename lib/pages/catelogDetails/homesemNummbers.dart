@@ -3,8 +3,8 @@ import 'package:velocity_x/velocity_x.dart';
 import 'package:gtu_material/pages/sem_pages/sem3.dart';
 import '../../routes/routes.dart';
 
-class HomeSemDetails extends StatelessWidget {
-  const HomeSemDetails({super.key});
+class HomeNumberDetails extends StatelessWidget {
+  const HomeNumberDetails({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class HomeSemDetails extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            leading: Image.asset("assets/semIcon/sem3.jfif"),
+            leading: Image.asset("assets/semIcon/logoSem.jpg"),
             title: "Sem - 1 & 2".text.bold.make(),
             subtitle: "Computer Engineering".text.caption(context).make(),
             trailing: ElevatedButton(

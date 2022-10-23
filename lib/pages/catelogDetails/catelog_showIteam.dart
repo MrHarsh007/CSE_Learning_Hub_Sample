@@ -10,7 +10,7 @@ import 'catelog_showImage.dart';
 class showIteam extends StatefulWidget {
   final catIteam catelog;
 
-  const showIteam({
+  showIteam({
     Key? key,
     required this.catelog,
   }) : super(key: key);

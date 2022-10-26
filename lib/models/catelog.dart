@@ -22,7 +22,7 @@ class catIteam {
   final int id;
   final String name;
   final String desc;
-  final num price;
+  final String syllabus;
   final String pdf;
   final String image;
 
@@ -30,7 +30,7 @@ class catIteam {
       {required this.id,
       required this.name,
       required this.desc,
-      required this.price,
+      required this.syllabus,
       required this.pdf,
       required this.image});
 
@@ -39,7 +39,7 @@ class catIteam {
         id: map["id"],
         name: map["name"],
         desc: map["desc"],
-        price: map["price"],
+        syllabus: map["syllabus"],
         pdf: map["pdf"],
         image: map["image"]);
   }
@@ -48,7 +48,7 @@ class catIteam {
         "id": id,
         "name": name,
         "desc": desc,
-        "price": price,
+        "syllabus": syllabus,
         "pdf": pdf,
         "image": image,
       };

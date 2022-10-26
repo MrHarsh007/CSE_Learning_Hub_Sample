@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gtu_material/syllabus_page.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import 'package:gtu_material/pages/sem_pages/sem3.dart';
@@ -54,12 +55,25 @@ class _showIteamState extends State<showIteam> {
                             MaterialStateProperty.all(Colors.red[400]),
                         shape:
                             MaterialStateProperty.all(const StadiumBorder())),
-                    child: "View".text.make()),
+                    child: "Material".text.make()),
+
+                ElevatedButton(
+                    onPressed: (() => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                SyllabusPage(catelog: widget.catelog)))),
+                    style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.red[400]),
+                        shape:
+                            MaterialStateProperty.all(const StadiumBorder())),
+                    child: "Syllabus".text.make())
               ],
-            ).pOnly(right: 8)
+            ).pOnly(right: 1)
           ],
         ))
       ],
-    )).white.roundedSM.square(150).make().py16();
+    )).white.roundedSM.square(160).make().py16();
   }
 }

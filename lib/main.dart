@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_windowmanager/flutter_windowmanager.dart';
-import 'package:gtu_material/pages/catelogDetails/homesemNummbers.dart';
+import 'package:gtu_material/homesemNummbers.dart';
 
-import 'package:gtu_material/pages/help_page.dart';
-import 'package:gtu_material/pages/home_page.dart';
+import 'package:gtu_material/help_page.dart';
+import 'package:gtu_material/home_page.dart';
 import 'package:gtu_material/pages/sem_pages/sem1.dart';
 import 'package:gtu_material/pages/sem_pages/sem3.dart';
 import 'package:gtu_material/pages/sem_pages/sem4.dart';
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.sem5route: (context) => const sem5Page(),
         MyRoutes.sem6route: (context) => const sem6Page(),
         MyRoutes.sem7route: (context) => const sem7Page(),
-        MyRoutes.helpRoute: (context) => HelpPage(),
+        MyRoutes.helpRoute: (context) => const HelpPage(),
         MyRoutes.homeNumber: (context) => const HomeNumberDetails(),
       },
     );

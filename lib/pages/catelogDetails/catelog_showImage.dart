@@ -12,6 +12,6 @@ class showImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        child: (Image.network(image).box.rounded.p8.make().p16().w40(context)));
+        child: (Image.network(image).box.rounded.p8.make().p12().w40(context)));
   }
 }

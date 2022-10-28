@@ -74,6 +74,6 @@ class _showIteamState extends State<showIteam> {
           ],
         ))
       ],
-    )).white.roundedSM.square(160).make().py16();
+    )).white.roundedSM.square(140).make().py16();
   }
 }

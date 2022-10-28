@@ -1,12 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gtu_material/darwer.dart';
 
-import 'package:gtu_material/pages/catelogDetails/homesemNummbers.dart';
+import 'package:gtu_material/homesemNummbers.dart';
 import 'package:gtu_material/pages/sem_pages/sem3.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-import '../routes/routes.dart';
-import 'catelogDetails/catelog_header.dart';
+import 'routes/routes.dart';
+import 'pages/catelogDetails/catelog_header.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({
@@ -23,6 +24,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
+      drawer: const MyDrawer(),
       body: SingleChildScrollView(
         child: Container(
             padding: Vx.m16,
@@ -50,7 +52,7 @@ class _HomePageState extends State<HomePage> {
         onPressed: () {
           Navigator.pushNamed(context, MyRoutes.helpRoute);
         },
-        backgroundColor: sem3Page.darkBluisColor,
+        backgroundColor: Colors.red[300],
         child: const Icon(CupertinoIcons.helm),
       ),
     ));

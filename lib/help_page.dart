@@ -16,12 +16,12 @@ class HelpPage extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           // backgroundColor: sem3Page.darkBluisColor,
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.red[400],
 
           body: Column(children: [
             30.heightBox,
             ContactUs(
-              logo: const AssetImage("assets/semIcon/profile.jpg"),
+              logo: const AssetImage("assets/semIcon/profile2.jpg"),
               email: 'Porwalharsh70@gmail.com',
               companyName: 'Harsh Porwal',
               dividerThickness: 8,
@@ -30,15 +30,16 @@ class HelpPage extends StatelessWidget {
               linkedinURL:
                   'https://www.linkedin.com/in/harsh-porwal-708645213/',
               tagLine: 'Computer Engineer',
-              twitterHandle: 'HarshPorwal29   ',
+              twitterHandle: 'HarshPorwal29',
               cardColor: Colors.white,
-              companyColor: const Color.fromARGB(225, 247, 238, 238),
-              taglineColor: Colors.black54,
+              companyColor: Colors.white,
+              taglineColor: Colors.black87,
               textColor: Colors.black,
             ).py32(),
             "Email us to add your MATERIAL in this app."
                 .text
                 .xl
+                .extraBlack
                 .caption(context)
                 .make()
                 .expand()

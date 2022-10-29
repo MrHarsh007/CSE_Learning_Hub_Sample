@@ -27,7 +27,7 @@ class SyllabusPage extends StatelessWidget {
               : PDF().cachedFromUrl(
                   catelog.syllabus,
 
-                  maxAgeCacheObject: Duration(days: 1), //duration of cache
+                  maxAgeCacheObject: Duration(hours: 24), //duration of cache
                   placeholder: (progress) => Center(child: Text('$progress %')),
                   errorWidget: (error) => Center(child: Text(error.toString())),
                 ),

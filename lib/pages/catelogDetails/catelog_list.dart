@@ -16,10 +16,11 @@ class CatelogList extends StatelessWidget {
       itemBuilder: (context, index) {
         final catelogs = CatelogModel.catiteams[index];
         return InkWell(
-            onTap: (() => Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => HomeDetailsPage(catelog: catelogs)))),
+            onTap: null,
+            // (() => Navigator.push(
+            //     context,
+            //     MaterialPageRoute(
+            //         builder: (context) => HomeDetailsPage(catelog: catelogs)))),
             child: showIteam(catelog: catelogs));
       },
     );

@@ -27,7 +27,7 @@ class HomeDetailsPage extends StatelessWidget {
                   .cachedFromUrl(
                     catelog.pdf,
 
-                    maxAgeCacheObject: Duration(days: 1),
+                    maxAgeCacheObject: Duration(hours: 24),
                     //duration of cache
 
                     placeholder: (progress) =>

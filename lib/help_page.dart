@@ -1,5 +1,6 @@
 import 'package:contactus/contactus.dart';
 import 'package:flutter/material.dart';
+import 'package:gtu_material/darwer.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 void main() {
@@ -39,11 +40,12 @@ class HelpPage extends StatelessWidget {
             "Email us to add your MATERIAL in this app."
                 .text
                 .xl
-                .extraBlack
+                .white
                 .caption(context)
                 .make()
                 .expand()
           ]),
+          drawer: MyDrawer(),
         ),
       ),
     );

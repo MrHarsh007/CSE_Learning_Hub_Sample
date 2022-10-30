@@ -17,6 +17,7 @@ class SyllabusPage extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          toolbarHeight: 40,
           backgroundColor: Colors.white,
           foregroundColor: Colors.black,
           title: "${catelog.name}".text.bold.xl2.make(),

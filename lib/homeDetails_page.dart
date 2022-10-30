@@ -1,6 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'package:velocity_x/velocity_x.dart';
 import '../models/catelog.dart';
 
@@ -17,6 +17,7 @@ class HomeDetailsPage extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
           appBar: AppBar(
+            toolbarHeight: 40,
             backgroundColor: Colors.white,
             foregroundColor: Colors.black,
             title: "${catelog.name}".text.bold.xl2.make(),

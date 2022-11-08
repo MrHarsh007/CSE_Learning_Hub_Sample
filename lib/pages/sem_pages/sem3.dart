@@ -20,7 +20,8 @@ class sem3Page extends StatefulWidget {
 
 class _sem3PageState extends State<sem3Page> {
   // final url = "https://upcdn.io/kW15awi/raw/catelog-4Kgi.json";
-  final url = "https://mrharsh007.github.io/GtuMaterialJson/sem3.json";
+  final url =
+      "https://mrharsh007.github.io/GtuMaterialJson/SampleSyllabus/sem3.json";
   List iteams = [];
 
   @override

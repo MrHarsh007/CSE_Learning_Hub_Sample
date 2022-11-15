@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../homeDetails_page.dart';
 import '../../models/catelog.dart';
 
 import 'catelog_showIteam.dart';

@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
+import 'package:gtu_material/help_page.dart';
 import 'package:url_launcher/link.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:social_media_flutter/social_media_flutter.dart';
@@ -22,9 +23,10 @@ class MyDrawer extends StatelessWidget {
                 child: UserAccountsDrawerHeader(
                   margin: EdgeInsets.zero,
                   accountName: "Harsh Porwal".text.xl.bold.make(),
-                  accountEmail: "Porwalharsh007@gmail.com"
+                  accountEmail: "harshgtumaterialapp@gmail.com"
                       .text
                       .white
+                      .capitalize
                       .caption(context)
                       .make(),
                   currentAccountPicture: const CircleAvatar(
@@ -44,7 +46,7 @@ class MyDrawer extends StatelessWidget {
                   ),
                   textScaleFactor: 1.3,
                 ),
-                onTap: () => launch("mailto:porwalharsh007@gmail.com"),
+                onTap: () => launch("mailto:harshgtumaterialapp@gmail.com"),
               ),
               ListTile(
                 leading: const Icon(
@@ -102,6 +104,26 @@ class MyDrawer extends StatelessWidget {
                   textScaleFactor: 1.3,
                 ),
                 onTap: () => launch("https://www.instagram.com/hrporwal_007/"),
+              ),
+              ListTile(
+                leading: const Icon(
+                  CupertinoIcons.settings,
+                  color: Colors.white,
+                ),
+                title: const Text(
+                  "Contact Us",
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                  textScaleFactor: 1.3,
+                ),
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => HelpPage(),
+                      ));
+                },
               )
             ],
           ),

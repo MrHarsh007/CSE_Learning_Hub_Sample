@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gtu_material/serialPage.dart';
+import 'package:gtu_material/home_page.dart';
+
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:async';
 import 'package:velocity_x/velocity_x.dart';
@@ -111,10 +112,8 @@ class _SerialHomeState extends State<SerialHome> {
                         shape:
                             MaterialStateProperty.all(const StadiumBorder())),
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => SerialPage()));
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => HomePage()));
                     },
                     child: "Access Application".text.bold.make()),
               ],

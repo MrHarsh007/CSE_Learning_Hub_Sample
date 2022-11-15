@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_windowmanager/flutter_windowmanager.dart';
-import 'package:gtu_material/serialPage.dart';
+import 'package:gtu_material/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SerialPage(),
+      home: const HomePage(),
     );
   }
 }

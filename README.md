@@ -11,7 +11,7 @@ A few resources to get you started if this is your first Flutter project:
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-- --------------------------- [Sample APK Link : Click Here color=red](https://drive.google.com/file/d/1xFkkxx0hO5CFrUz77DEaWvuD1_UaSIEH/view?usp=share_link) ---------------------------
+- --------------------------- [Sample APK Link : Click Here](https://drive.google.com/file/d/1xFkkxx0hO5CFrUz77DEaWvuD1_UaSIEH/view?usp=share_link) ---------------------------
 
 - --------------------------- [Original APK Link with all Access : Click Here](https://drive.google.com/file/d/1XPfC-0s0uhMtDLqbYZRFPLaYcqOaU4kU/view?usp=sharing) ------------------
 - Download app and Email Us to Get Access at : harshgtumaterialapp@gmail.com

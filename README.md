@@ -13,15 +13,8 @@ A few resources to get you started if this is your first Flutter project:
 
 - --------------------------- [Sample APK Link : Click Here](https://drive.google.com/file/d/1xFkkxx0hO5CFrUz77DEaWvuD1_UaSIEH/view?usp=share_link) ---------------------------
 
-- --------------------------- [Original APK Link with all Access : Click Here](https://drive.google.com/file/d/1vHOVhrBc42j-RLISlqIjH2XxSSCrSjx7/view?usp=sharing) ---------------------------
+- --------------------------- [Original APK Link with all Access : Click Here](https://drive.google.com/file/d/1XPfC-0s0uhMtDLqbYZRFPLaYcqOaU4kU/view?usp=sharing) ---------------------------
 - Download app and Email Us to Get Access at : harshgtumaterialapp@gmail.com
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-#� �G�t�u�M�a�t�e�r�i�a�l�-�A�p�p�
-�
-�
 
 
 

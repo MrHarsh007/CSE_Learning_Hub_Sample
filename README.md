@@ -1,4 +1,4 @@
-# CSE_Learning_Hub
+# GTU_Material_App
 
 A new Flutter project.
 
